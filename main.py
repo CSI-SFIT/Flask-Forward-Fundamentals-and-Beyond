@@ -18,8 +18,8 @@ app.config.update(
             MAIL_PORT = 465,
             MAIL_USE_TLS = False,
             MAIL_USE_SSL = True,
-            MAIL_USERNAME = 'dsouzareuben79@student.sfit.ac.in',
-            MAIL_PASSWORD = '#Reuben123'
+            MAIL_USERNAME = '',
+            MAIL_PASSWORD = ''
         )
 mail = Mail(app)
 
@@ -45,7 +45,7 @@ def contact_form():
 
         msg = Message(
             subject='Welcome Message',
-            sender='dsouzareuben79@student.sfit.ac.in',
+            sender='',
             recipients=[email],
             body='hi hello'
         )
