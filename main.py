@@ -85,8 +85,6 @@ def projects_page():
     cursor = db.connection.cursor()
     cursor.execute("SELECT * FROM projects")
     projects = cursor.fetchall()
-    for project in projects:
-        print(project[3])
     return render_template("projects.html", projects=projects)
 
 
