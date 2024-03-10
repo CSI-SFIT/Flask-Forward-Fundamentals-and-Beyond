@@ -1,0 +1,40 @@
+{% extends "temp.html" %}
+
+{% block body%}
+<!-- About 3 - Bootstrap Brain Component -->
+<section class="py-3 py-md-5">
+  <div class="container mb-4 mb-md-5">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-xxl-8">
+        <img class="img-fluid rounded shadow" loading="lazy" src="{{ url_for('static',filename='/assets/about-img-1.jpg')}}" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container overflow-hidden">
+    <div class="row gy-2 gy-md-0 justify-content-xxl-center">
+      <div class="col-12 order-md-1 col-md-8 col-xxl-6">
+        <div class="text-center text-md-start">
+          <h2 class="display-3 fw-bold lh-1">Reuben D'souza</h2>
+          <p class="text-secondary fs-4 mb-2">Web Developer</p>
+          <hr class="w-25 mx-auto ms-md-0 mb-4 text-secondary">
+          <p>I specialize in front-end and back-end development, creating seamless and responsive websites. My expertise includes crafting clean and efficient code using technologies like HTML, CSS, JavaScript.</p>
+          <p>Duis bibendum lectus vitae posuere euismod. Nunc semper mauris sed justo consequat mollis. Suspendisse eu lectus ornare, pulvinar tortor eget, iaculis libero. Nullam non metus sed lacus luctus posuere. Morbi semper pharetra tortor sit amet mollis.</p>
+        </div>
+      </div>
+      <div class="col-12 order-md-0 col-md-4 col-xxl-4">
+        <div class="text-center text-md-start me-md-3 me-xl-5">
+          <p class="mb-4">
+            <span class="d-block display-6 lh-1">12+</span>
+            <span class="fs-4 text-secondary">years of experience</span>
+          </p>
+          <div class="d-grid">
+            <button class="btn btn-dark btn-lg" type="button">Hire Me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "temp.html" %}
+
+{% block body %}
+<div class="container px-lg-5">
+    <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+        <div class="m-4 m-lg-5">
+            <h1 class="display-5 fw-bold">Admin Panel</h1>
+            <p class="fs-4">See your projects here </p>
+            <a class="btn btn-dark btn-lg" href="/edit/0">Add New Project</a><br/>
+            <a class="btn btn-dark btn-lg mt-2" href="/logout">Log Out</a>
+        </div>
+    </div>
+</div>
+
+<div class="container px-lg-5" style="margin-bottom: 290px">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Title</th>
+                <th scope="col">Date</th>
+                <th scope="col"></th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for project_id, title, description, img_file, github_link, date_uploaded in projects %}
+
+            <tr>
+                <td>{{ title }}</td>
+                <td>{{ date_uploaded }}</td>
+                <td><a href="/edit/{{ project_id }}" class="btn btn-dark">Edit</a></td>
+                <td><a href="/delete/{{ project_id }}" class="btn btn-danger">Delete</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}
