@@ -59,7 +59,7 @@ def contact_form():
 def admin_page():
     cur = db.connection.cursor()
 
-    if 'user' in session and session['user'] == 'Reuben':
+    if 'user' in session and session['user'] == 'YOUR_NAME':
         # Fetch projects using raw MySQL query
         cur.execute("SELECT * FROM projects")
         projects = cur.fetchall()
@@ -96,7 +96,7 @@ def about_page():
 @app.route("/edit/<string:sno>", methods=['GET', 'POST'])
 def edit_page(sno):
     print(sno)
-    if "user" in session and session['user'] == 'Reuben':
+    if "user" in session and session['user'] == 'YOUR_NAME':
         cur = db.connection.cursor()
 
         if request.method == "POST":
@@ -131,7 +131,7 @@ def edit_page(sno):
 
 @app.route("/delete/<string:sno>", methods=['GET', 'POST'])
 def delete_page(sno):
-        if "user" in session and session['user'] == 'Reuben':
+        if "user" in session and session['user'] == 'YOUR_NAME':
             cur = db.connection.cursor()
 
             cur.execute("DELETE FROM projects WHERE sno = %s", (sno,))
