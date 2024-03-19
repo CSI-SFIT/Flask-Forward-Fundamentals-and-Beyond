@@ -16,3 +16,6 @@ Go to your SFIT account >> Manage Accounts >> Security >> Allow less secure apps
 
 - Sessions
   - Replace YOUR_NAME with your actual name.
+ 
+
+#hashtags #project #features #usage #installation #contributing #license #author #contact
