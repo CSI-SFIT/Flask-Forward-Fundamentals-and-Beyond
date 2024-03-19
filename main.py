@@ -19,7 +19,7 @@ app.config.update(
             MAIL_USE_TLS = False,
             MAIL_USE_SSL = True,
             MAIL_USERNAME = 'SFIT_EMAIL_ID',
-            MAIL_PASSWORD = 'PASSWORD'
+            MAIL_PASSWORD = 'SFIT_EMAIL_PASSWORD'
         )
 mail = Mail(app)
 
