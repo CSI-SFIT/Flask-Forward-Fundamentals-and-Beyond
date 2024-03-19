@@ -3,6 +3,7 @@ Steps to be followed:
 - Flask Mail:
   - Set username as your SFIT email account
   - Set password as your email id password
+    <br>
 Go to your SFIT account >> Manage Accounts >> Security >> Allow less secure apps
   
 
