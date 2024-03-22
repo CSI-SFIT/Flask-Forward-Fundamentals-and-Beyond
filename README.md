@@ -1,6 +1,6 @@
 # FLASK FORWARD FUNDAMENTALS AND BEYOND
 <div style="text-align:center;">
-    <img src="img.png" alt="Image" width="200">
+    <img src="static/assets/img.png" alt="Image" width="200">
 </div>
 
 Steps to be followed:
