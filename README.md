@@ -24,6 +24,24 @@ Flask is a micro web framework for python.<br/> It allows developers to build we
   - Create a database [portfolio] and two tables in it named: 
     - projects  [sno, title, description, link, img_file, date]
     - contacts  [sno, name, phone, msg, date, email]
+  - Else
+    - Create a database [portfolio] and run the following SQL commands in SQL tab
+    -     CREATE TABLE projects (
+          sno INT AUTO_INCREMENT PRIMARY KEY,
+          title TEXT,
+          description TEXT,
+          link VARCHAR(255),
+          img_file VARCHAR(255),
+          date DATE
+          );
+    -     CREATE TABLE contacts (
+          sno INT AUTO_INCREMENT PRIMARY KEY,
+          name TEXT,
+          phone VARCHAR(20),
+          msg TEXT,
+          date DATE,
+          email VARCHAR(255)
+          );
      
 
 - Sessions
