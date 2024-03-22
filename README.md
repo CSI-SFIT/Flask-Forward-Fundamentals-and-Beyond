@@ -38,6 +38,6 @@ CSI SFIT Tech Team 2023 - 2024
 - Tech Executives: 
 
 <p align="center"">
-   <img src="static/assets/img_1.png" width="400" />
+   <img src="static/assets/img_1.png" width="300" />
 </p>
     
