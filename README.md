@@ -38,7 +38,7 @@ CSI SFIT Tech Team 2023 - 2024
 
 <p align="center"">
       <a href="https://www.csi.sfit.ac.in/">
-        <img src="static/assets/img_1.png" width="300" />
+        <img src="static/assets/img_1.png" width="250" />
       </a>
 </p>
     
