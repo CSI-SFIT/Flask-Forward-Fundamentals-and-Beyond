@@ -37,6 +37,6 @@ CSI SFIT Tech Team 2023 - 2024
 
 
 <div style="text-align:center">
-   <img src="static/assets/img_1.png" alt="Image" width="200">
+   <img src="static/assets/img_1.png" style="align:center" alt="Image" width="200">
 </div>
     
