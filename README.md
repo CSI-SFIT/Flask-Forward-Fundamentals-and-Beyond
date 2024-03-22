@@ -1,6 +1,6 @@
 # FLASK FORWARD FUNDAMENTALS AND BEYOND
 ## Introduction
-<div style="text-align:center;">
+<div style="text-align:center">
     <img src="static/assets/img.png" alt="Image" width="200">
 </div>
 
@@ -36,7 +36,7 @@ CSI SFIT Tech Team 2023 - 2024
 - Tech Executives: 
 
 
-<div style="text-align:center;">
+<div style="text-align:center">
    <img src="static/assets/img_1.png" alt="Image" width="200">
 </div>
     
