@@ -45,7 +45,7 @@ Flask is a micro web framework for python.<br/> It allows developers to build we
      
 
 - Sessions
-  - Replace YOUR_NAME with your actual name.
+  - Replace YOUR_NAME with your actual name in main.py file.
 
 ## Acknowledgements
 CSI SFIT Tech Team 2023 - 2024 
