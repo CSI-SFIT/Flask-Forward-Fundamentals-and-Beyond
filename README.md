@@ -1,4 +1,9 @@
 # FLASK FORWARD FUNDAMENTALS AND BEYOND
+<div style="text-align:center;">
+    <img src="Flask-Forward-Fundamentals-and-Beyond
+/static/assets/img.png" alt="Image" width="200">
+</div>
+
 Steps to be followed:
 - Flask Mail:
   - Set username as your SFIT email account
