@@ -1,11 +1,9 @@
 # FLASK FORWARD FUNDAMENTALS AND BEYOND
-## Introduction
-
 <p align="center"">
    <img src="static/assets/img.png" width="200" />
 </p>
 
-
+## Introduction
 Flask is a micro web framework for python.<br/> It allows developers to build web applications quickly and easily.<br/>  It is known for it's simplicity and flexibility.<br/>  It is a popular choice for both beginners and experienced developers.
 
 ## Steps to be followed:
