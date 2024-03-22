@@ -2,7 +2,7 @@
 ## Introduction
 
 <p align="center"">
-   <img src="static/assets/img.png" width="100" />
+   <img src="static/assets/img.png" width="200" />
 </p>
 
 
@@ -37,8 +37,7 @@ CSI SFIT Tech Team 2023 - 2024
 - Joint Tech Head:
 - Tech Executives: 
 
-
-<div style="text-align:center">
-   <img src="static/assets/img_1.png" style="align:center" alt="Image" width="200">
-</div>
+<p align="center"">
+   <img src="static/assets/img_1.png" width="200" />
+</p>
     
