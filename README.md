@@ -37,6 +37,6 @@ CSI SFIT Tech Team 2023 - 2024
 - Tech Executives: 
 
 <p align="center"">
-   <img src="static/assets/img_1.png" width="300" />
+   <a src="https://www.csi.sfit.ac.in/"><img src="static/assets/img_1.png" width="300" /></a>
 </p>
     
