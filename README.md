@@ -6,6 +6,10 @@
 ## Introduction
 Flask is a micro web framework for python.<br/> It allows developers to build web applications quickly and easily.<br/>  It is known for it's simplicity and flexibility.<br/>  It is a popular choice for both beginners and experienced developers.
 
+## About
+
+My Awesome Project is built using [Flask](https://flask.palletsprojects.com/) and [Bootstrap](https://getbootstrap.com/). It allows users to create, edit, and share content effortlessly. Whether you're a beginner or an experienced developer, you'll find My Awesome Project easy to use and customize for your needs.
+
 ## Steps to be followed:
 - Clone The Repo:
   - git clone https://github.com/CSI-SFIT/Flask-Forward-Fundamentals-and-Beyond.git 
