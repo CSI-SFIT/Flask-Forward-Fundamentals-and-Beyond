@@ -1,4 +1,4 @@
-# FLASK FORWARD FUNDAMENTALS AND BEYOND
+# Flask Forward: Fundamentals and Beyond
 
 <p align="center">
   <img src="static/assets/img.png" width="200" />
