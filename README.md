@@ -39,12 +39,16 @@ If any issues occur during installation you can post the issue [here](https://gi
   - [MongoDB Server](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.7-signed.msi)
 
  - Python packages used for this project
-`pip install blinker certifi charset-normalizer click colorama dnspython Flask Flask-Mail idna itsdangerous Jinja2 MarkupSafe mysql-connector-python passlib pymongo razorpay requests urllib3 Werkzeug`
+```shell
+pip install blinker certifi charset-normalizer click colorama dnspython Flask Flask-Mail idna itsdangerous Jinja2 MarkupSafe mysql-connector-python passlib pymongo razorpay requests urllib3 Werkzeug
+```
 
 > ## Steps to be followed
 
 - Clone The Repo:
-  `git clone https://github.com/CSI-SFIT/Flask-Forward-Fundamentals-and-Beyond.git`
+  ```shell
+  git clone https://github.com/CSI-SFIT/Flask-Forward-Fundamentals-and-Beyond.git
+  ```
   - Paste the above command in your cmd.
 
 - Flask Mail:
