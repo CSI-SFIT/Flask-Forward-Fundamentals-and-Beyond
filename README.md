@@ -25,18 +25,22 @@ If prompted for UAC (yes or no), press Yes.
 4. After the first file is executed successfully without any errors. Run the file.bat from same directory by double clicking.
 5. A folder called Flask-Project must be created and VS Code opened in that directory.
 
-If any issues occur during installation you can post the issue [here](https://github.com/Tetroner9/CSI/issues/new).
+***If any issues occur during installation you can post the issue [here](https://github.com/Tetroner9/CSI/issues/new).***
 
 ### Manual Installation:
 
 **(Follow default installation steps. Make sure to tick add .PATH for python)**
 
 - Softwares:
-  - <span style="color:red">[Python](https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe) - REQUIRED</span>
-  - [Git](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe) - To clone the repository
-  - Any code editor of your choice, preferably [VS Code](https://code.visualstudio.com/docs/?dv=win64user)
-  - [XAMPP Control Center](https://sourceforge.net/projects/xampp/files/latest/download)
-  - [MongoDB Server](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.7-signed.msi)
+  - <a href="https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe" target="_blank">Python</a> - <span style="color:red"> REQUIRED </span>
+
+  - <a href="https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe" target="_blank">Git</a> - To clone the repository
+ 
+  - Any code editor of your choice, preferably <a href="https://code.visualstudio.com/docs/?dv=win64user" target="_blank">VS Code</a>
+
+  - <a href="https://sourceforge.net/projects/xampp/files/latest/download" target="_blank">XAMPP Control Center</a>
+
+  - <a href="https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.7-signed.msi" target="_blank">MongoDB Server</a>
 
  - Python packages used for this project
 ```shell
