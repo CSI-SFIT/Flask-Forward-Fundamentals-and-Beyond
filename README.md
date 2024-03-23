@@ -26,21 +26,16 @@ If prompted for UAC (yes or no), press Yes.
 5. A folder called Flask-Project must be created and VS Code opened in that directory.
 
 ***If any issues occur during installation you can post the issue [here](https://github.com/Tetroner9/CSI/issues/new).***
-
 ### Manual Installation:
 
 **(Follow default installation steps. Make sure to tick add .PATH for python)**
 
 - Softwares:
-  - <a href="https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe" target="_blank">Python</a> - <span style="color:red"> REQUIRED </span>
-
-  - <a href="https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe" target="_blank">Git</a> - To clone the repository
- 
-  - Any code editor of your choice, preferably <a href="https://code.visualstudio.com/docs/?dv=win64user" target="_blank">VS Code</a>
-
-  - <a href="https://sourceforge.net/projects/xampp/files/latest/download" target="_blank">XAMPP Control Center</a>
-
-  - <a href="https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.7-signed.msi" target="_blank">MongoDB Server</a>
+  - <span style="color:red">[Python](https://www.python.org/ftp/python/3.12.2/python-3.12.2-amd64.exe) - REQUIRED</span>
+  - [Git](https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe) - To clone the repository
+  - Any code editor of your choice, preferably [VS Code](https://code.visualstudio.com/docs/?dv=win64user)
+  - [XAMPP Control Center](https://sourceforge.net/projects/xampp/files/latest/download)
+  - [MongoDB Server](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.7-signed.msi)
 
  - Python packages used for this project
 ```shell
@@ -93,9 +88,15 @@ pip install blinker certifi charset-normalizer click colorama dnspython Flask Fl
 
 CSI SFIT Tech Team 2023 - 2024
 
-- Tech Head: @yogiiieee
-- Joint Tech Head: @0Juice
-- Tech Executives: @PrathameshDesai0409 @avogadronuggies @ReubenMatrix @Tetroner9 @Viraj-01 @tannmayy14
+- Tech Head: [Yogiraj](https://github.com/yogiiieee)
+- Joint Tech Head: [Ojas]()
+- Tech Executives:-
+  - [Vijet](https://github.com/avogadronuggies)
+  - [Prathamesh](https://github.com/PrathameshDesai0409)
+  - [Reuben](https://github.com/ReubenMatrix)
+  - [Om](https://github.com/Tetroner9)
+  - [Tanmay](https://github.com/tannmayy14)
+  - [Viraj]()
 
 <p align="center">
   <a href="https://www.csi.sfit.ac.in/">
