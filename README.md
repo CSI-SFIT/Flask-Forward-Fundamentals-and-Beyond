@@ -18,7 +18,7 @@ You can follow with Automatic Installation or Manual Installation!
 
 To know how this script works, you can check by visiting this [repository](https://github.com/Tetroner9/CSI).
 
-1. Open this <a href="https://raw.githubusercontent.com/Tetroner9/CSI/main/run.bat" target="_blank">link</a> and right click, save as run.bat
+1. Open this [link](https://raw.githubusercontent.com/Tetroner9/CSI/main/run.bat) and right click, save as run.bat
 2. Create a folder anywhere in your system and paste the bat file there.
 3. Run the run.bat file just by double clicking it. <span style="color:red">DO NOT RUN AS ADMINISTRATOR.</span>
 If prompted for UAC (yes or no), press Yes.
