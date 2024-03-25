@@ -1,4 +1,4 @@
-# Flask Forward: Fundamentals and Beyond
+# FLASK FORWARD FUNDAMENTALS AND BEYOND
 
 <p align="center">
   <img src="static/assets/img.png" width="200" />
@@ -38,9 +38,9 @@ If prompted for UAC (yes or no), press Yes.
   - [MongoDB Server](https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.7-signed.msi)
 
  - Python packages used for this project
-```shell
-pip install blinker certifi charset-normalizer click colorama dnspython Flask Flask-Mail idna itsdangerous Jinja2 MarkupSafe mysql-connector-python passlib pymongo razorpay requests urllib3 Werkzeug
-```
+   ```shell
+   pip install blinker certifi charset-normalizer click colorama dnspython Flask Flask-Mail Flask-MySQLdb idna itsdangerous Jinja2 MarkupSafe mysql-connector-python passlib pymongo razorpay requests urllib3 Werkzeug
+   ```
 
 > ## Steps to be followed
 
@@ -51,16 +51,19 @@ pip install blinker certifi charset-normalizer click colorama dnspython Flask Fl
   - Paste the above command in your cmd.
 
 - Flask Mail:
-  - Set username as your SFIT email account
-  - Set password as your email id password
-  - Go to your SFIT account >> Manage Accounts >> Security >> Allow less secure apps
+  - Set MAIL_USERNAME as your SFIT email account
+  - Set MAIL_PASSWORD as your email id password
+  - Visit this [link](https://myaccount.google.com/lesssecureapps?pli=1) >> Select your SFIT account >> Allow less secure apps
+  (Make sure you have 2FA disabled for this to work)
 
 - XAMPP:
-  - Create a database [portfolio] and two tables in it named:
-    - projects [sno, title, description, link, img_file, date]
-    - contacts [sno, name, phone, msg, date, email]
-  - Else:
-    - Create a database [portfolio] and run the following SQL commands in the SQL tab:
+  - Open XAMPP Control Center and Start both Apache & MySQL:
+  ![XAMPP Control Center](/screenshots/1.png)
+  ![XAMPP Control Center](/screenshots/2.png)
+  - After the admin page is opened click on new database and type database name as portfolio
+  ![MySQL admin page](/screenshots/3.png)
+  ![MySQL create database](/screenshots/4.png)
+  - Select the portfolio database and paste the following lines in the SQL tab
       ```sql
       CREATE TABLE projects (
         sno INT AUTO_INCREMENT PRIMARY KEY,
@@ -80,9 +83,15 @@ pip install blinker certifi charset-normalizer click colorama dnspython Flask Fl
         email VARCHAR(255)
       );
       ```
+    ![MySQL tables](/screenshots/5.png)
 
 - Sessions:
-  - Replace YOUR_NAME with your actual name in the [main.py](main.py) file.
+  - Replace every instance of **YOUR_NAME** with your actual name in the [main.py](main.py) file.
+
+- Change the following [line](https://github.com/CSI-SFIT/Flask-Forward-Fundamentals-and-Beyond/blob/bb0507ef0a22601b667a256cdecbecd35f121205/main.py#L48) to your SFIT mail
+  ```python
+  sender='',
+  ```
 
 > ## Acknowledgements
 
