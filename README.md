@@ -88,9 +88,10 @@ If prompted for UAC (yes or no), press Yes.
 - Sessions:
   - Replace every instance of **YOUR_NAME** with your actual name in the [main.py](main.py) file.
 
-- Change the following [line](https://github.com/CSI-SFIT/Flask-Forward-Fundamentals-and-Beyond/blob/bb0507ef0a22601b667a256cdecbecd35f121205/main.py#L48) to your SFIT mail
+- Add you emailID to following [line](https://github.com/CSI-SFIT/Flask-Forward-Fundamentals-and-Beyond/blob/bb0507ef0a22601b667a256cdecbecd35f121205/main.py#L48)
   ```python
   sender='',
+  #sender='youremail@example.com';
   ```
 
 > ## Acknowledgements
